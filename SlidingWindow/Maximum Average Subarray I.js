@@ -1,3 +1,6 @@
+// Problem Statement #
+// Given an array of positive numbers and a positive number ‘k’, find the maximum average of any contiguous subarray of size ‘k’.
+
 var findMaxAverage = function (nums, k) {
   let start = 0;
   let max = 0;
