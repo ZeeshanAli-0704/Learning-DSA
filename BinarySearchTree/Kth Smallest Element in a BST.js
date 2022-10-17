@@ -36,5 +36,5 @@ var kthSmallest = function(root, k) {
 
   inOrderTraversal(root);
     return kthNode;
-    
+   
 };
