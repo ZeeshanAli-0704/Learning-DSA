@@ -50,6 +50,7 @@ class Graph {
   }
 
   getDistance() {
+    console.log(this.parent)
     let answere = [this.destination];
     let current = this.destination;
     while (current != this.source) {
