@@ -14,3 +14,5 @@ const selectionSort = (arr) => {
 };
 
 console.log(selectionSort([13, 46, 24, 52, 20, 9]))
+
+// each iteraton get the min index & swap that min index value with i.. i is basically index from start
