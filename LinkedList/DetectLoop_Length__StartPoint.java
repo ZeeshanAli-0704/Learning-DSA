@@ -1,41 +1,5 @@
 package org.example.linkedlist;
 
-public class ListNode {
-    public int val;
-    public ListNode next;
-
-    public ListNode() {}
-
-    public ListNode(int val) {
-        this.val = val;
-        this.next = null;
-    }
-
-    public ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
-
-public class LoopResult {
-    private boolean flag;
-    private ListNode node;
-
-    public LoopResult(boolean flag, ListNode node) {
-        this.flag = flag;
-        this.node = node;
-    }
-
-    public boolean isFlag() {
-        return flag;
-    }
-
-    public ListNode getNode() {
-        return node;
-    }
-}
-
-
 public class DetectLoop_Length__StartPoint {
 
     public LoopResult loopPresent(ListNode  head){
