@@ -1,5 +1,3 @@
-package org.example.stack;
-
 import java.util.Arrays;
 import java.util.Stack;
 
