@@ -1,5 +1,4 @@
-// Your approach is close to insertion sort, but there are some issues in your inner loop condition and variable assignments.Here's the corrected approach:
-
+// Insertion Sort Algorithm
 // Iterate through each element of the array, starting from the second element(index 1).
 // For each element, compare it with the elements before it(starting from its own index and moving towards the beginning of the array).
 // If the current element is smaller than the element before it, swap them.
@@ -13,7 +12,7 @@ const insertionSort = (arr) => {
                 arr[j] = arr[j-1];
                 arr[j-1] = temp;
             }
-        }  
+        }   
     }
     return arr;
 };
